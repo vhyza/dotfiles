@@ -1,0 +1,27 @@
+[user]
+	name = Vojtech Hyza
+	email = vhyza@vhyza.eu
+
+[color]
+  ui = always
+	diff = auto
+	status = always
+	branch = always
+	interactive = auto
+
+[core]
+	excludesfile = <%= ENV['HOME'] %>/.gitignore
+	editor = mate -w
+	autocrlf = input
+
+[format]
+	pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+
+[push]
+  default = tracking
+
+[blame]
+  date = short
+
+[github]
+	user = vhyza
