@@ -6,7 +6,7 @@ bindkey '^X^E' edit-command-line
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-export EDITOR=s
-export VISUAL=s
+export EDITOR="s -w -n"
+export VISUAL="s -w -n"
 
 unsetopt correct_all
