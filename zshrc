@@ -5,7 +5,7 @@ DISABLE_LS_COLORS="true"
 
 plugins=(git bundler brew gem autojump osx rails3 redis-cli rvm sublime vagrant)
 
-export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/bin:$HOME/bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
 
