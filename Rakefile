@@ -7,7 +7,7 @@ task :install do
   switch_to_zsh
   replace_all = false
   files = Dir['*'] - %w[Rakefile README.rdoc oh-my-zsh]
-  files << "oh-my-zsh/custom/sweet.zsh-theme"
+  files << "oh-my-zsh/custom/custom_settings.zsh"
   files.each do |file|
     system %Q{mkdir -p "$HOME/.#{File.dirname(file)}"} if file =~ /\//
     if File.exist?(File.join(ENV['HOME'], ".#{file.sub(/\.erb$/, '')}"))
