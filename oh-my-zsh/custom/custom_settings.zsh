@@ -10,3 +10,4 @@ export EDITOR="s -w -n"
 export VISUAL="s -w -n"
 
 unsetopt correct_all
+setopt nonomatch
