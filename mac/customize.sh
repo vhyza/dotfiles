@@ -346,6 +346,9 @@ function set_application_preferences () {
   ## Disable hibernation
   /usr/bin/pmset -a hibernatemode 0
   /bin/rm /private/var/vm/sleepimage
+
+  ## Disable sudden motion sensor
+  /usr/bin/pmset -a sms 0
 }
 
 echo "  → Customizing the OS..."
