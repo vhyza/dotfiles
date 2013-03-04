@@ -1,6 +1,6 @@
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="terminalparty"
-DISABLE_AUTO_UPDATE="true"
+#DISABLE_AUTO_UPDATE="true"
 
 plugins=(git bundler brew gem git knife autojump rails3 redis-cli vagrant)
 
