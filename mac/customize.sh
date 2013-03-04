@@ -342,6 +342,10 @@ function set_application_preferences () {
   ## Disable swap
   /bin/launchctl unload -w /System/Library/LaunchDaemons/com.apple.dynamic_pager.plist
 
+
+  ## Disable hibernation
+  /usr/bin/pmset -a hibernatemode 0
+  /bin/rm /private/var/vm/sleepimage
 }
 
 echo "  → Customizing the OS..."
