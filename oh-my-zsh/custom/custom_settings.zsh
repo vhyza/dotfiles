@@ -1,5 +1,4 @@
 autoload -U select-word-style
-autoload -U compinit; compinit
 
 select-word-style bash
 bindkey '^X^E' edit-command-line
@@ -11,3 +10,5 @@ export VISUAL="s -w -n"
 
 unsetopt correct_all
 setopt nonomatch
+
+compinit
