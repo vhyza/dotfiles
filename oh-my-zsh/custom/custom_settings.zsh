@@ -1,6 +1,3 @@
-# Enable autojump
-[[ -s ~/.autojump/etc/profile.d/autojump.zsh ]] && . ~/.autojump/etc/profile.d/autojump.zsh
-
 autoload select-word-style
 
 select-word-style bash
@@ -19,5 +16,3 @@ export VISUAL="s -w -n"
 
 unsetopt correct_all
 setopt nonomatch
-
-compinit -i
