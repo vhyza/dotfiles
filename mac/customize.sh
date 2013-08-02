@@ -339,12 +339,6 @@ function set_application_preferences () {
 
   /usr/bin/defaults write com.apple.DiskUtility 'DUDebugMenuEnabled' -bool true
 
-
-
-  ## Disable hibernation
-  /usr/bin/pmset -a hibernatemode 0
-  /bin/rm /private/var/vm/sleepimage
-
   ## Disable sudden motion sensor
   /usr/bin/pmset -a sms 0
 }
