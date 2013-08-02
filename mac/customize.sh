@@ -339,8 +339,6 @@ function set_application_preferences () {
 
   /usr/bin/defaults write com.apple.DiskUtility 'DUDebugMenuEnabled' -bool true
 
-  ## Disable swap
-  /bin/launchctl unload -w /System/Library/LaunchDaemons/com.apple.dynamic_pager.plist
 
 
   ## Disable hibernation
