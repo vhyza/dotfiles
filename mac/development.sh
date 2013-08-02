@@ -8,7 +8,7 @@ open "http://connect.apple.com"
 sh read -p "    → Press [enter] when finished..."
 
 brew install git
-brew install autojump
+brew install z
 
 # Rbenv
 
