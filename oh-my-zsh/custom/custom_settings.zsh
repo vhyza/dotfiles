@@ -16,3 +16,6 @@ export VISUAL="s -w -n"
 
 unsetopt correct_all
 setopt nonomatch
+
+# Alias for z - match by rank only
+alias j='z -r'
