@@ -16,4 +16,4 @@ brew install rbenv
 brew install readline
 exec $SHELL
 git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-rbenv install 1.9.3-p327
+rbenv install 2.0.0-p247
