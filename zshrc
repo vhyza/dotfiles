@@ -2,7 +2,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="terminalparty"
 #DISABLE_AUTO_UPDATE="true"
 
-plugins=(git bundler brew gem knife autojump rails3 redis-cli vagrant)
+plugins=(git bundler brew gem knife rails4 redis-cli vagrant)
 
 export PATH="/usr/local/bin:$HOME/bin:$PATH"
 
