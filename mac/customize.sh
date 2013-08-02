@@ -366,5 +366,3 @@ for app in "Address Book" "Calendar" "Contacts" "Dashboard" "Dock" "Finder" \
 done
 
 echo "✓ System and Application Preferences were set, restart iTerm2..."
-
-echo "[!] See http://blog.alutam.com/2012/04/01/optimizing-macos-x-lion-for-ssd/ | http://apple.stackexchange.com/questions/58166/how-to-set-noatime-for-startup-drive-in-mountain-lion"
